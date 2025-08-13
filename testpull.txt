@@ -1,1 +1,2 @@
-This is file is created to test "pull" command, created from my GitHub account and has to pull it to my local device. 
+This file is created to test "pull" command, created from my GitHub account and has to pull it to my local device. 
+Now this file is modified from my local device. 
