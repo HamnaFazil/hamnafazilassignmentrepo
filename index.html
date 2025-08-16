@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor Details</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .container {
+          display: flex; 
+        }
+    
+        .left, .right {
+          flex: 1; 
+          padding: 20px; 
+        }
+    
+        .left {
+          background-color: #d0d0d0; 
+        }
+    
+        .right {
+          background-color: #d0d0d0; 
+        }
+      </style>
+</head>
+<body>
+    <header class="header">
+        <h1>Care One - Doctor Details</h1>
+    </header>
+
+    <main>
+        <div class="outpatient-section">
+            <h2>Out Patient Department</h2>
+            <div class="departments">
+                <div class="department general-physicians">
+                    <h3>General Physicians</h3>
+                    <ol>
+                        <li>Dr. Raymond Silver</li>
+                        <li>Dr. Milgram Kong</li>
+                        <li>Dr. Anna Cot</li>
+                        <li>Dr. Selena Red</li>
+                        <li>Dr. Helen Keerthy</li>
+                    </ol>
+                </div>
+                <div class="department medical-interns">
+                    <h3>Medical Interns</h3>
+                    <ol>
+                        <li>Dr. Albert Singh</li>
+                        <li>Dr. Alley Frued</li>
+                        <li>Dr. Abraham Kinn</li>
+                        <li>Dr. Saley Fil</li>
+                        <li>Dr. Delene Aser</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+            
+
+        <div id="specialization">
+        <section class="doctor-categories">
+            <h2>Select Specialization</h2>
+            <ul id="category-list">
+                <!-- Categories will be populated dynamically -->
+            </ul>
+        </section>
+        </div>
+
+        <section class="doctor-profile" id="doctor-profile">
+            <!-- Doctors will be displayed here after selecting a category -->
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Care One - All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
